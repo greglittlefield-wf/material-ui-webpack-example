@@ -27,9 +27,10 @@ packages:
     version: "0.22.0"
   react:
     description:
-      path: "../react-dart"
-      relative: true
-    source: path
+      ref: "63ab345544be7742c74646d05818a7f872a9d196"
+      resolved-ref: "63ab345544be7742c74646d05818a7f872a9d196"
+      url: "git@github.com:greglittlefield-wf/react-dart.git"
+    source: git
     version: "3.1.0"
 sdks:
   dart: ">=1.19.0-dev.0.0 <2.0.0"

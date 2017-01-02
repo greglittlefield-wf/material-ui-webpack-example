@@ -29,13 +29,10 @@ class Colors {
 
 @JS()
 external ReactClass get _FlatButton;
-
 @JS()
 external ReactClass get _Dialog;
-
 @JS()
 external ReactClass get _RaisedButton;
-
 @JS()
 external ReactClass get _MuiThemeProvider;
 

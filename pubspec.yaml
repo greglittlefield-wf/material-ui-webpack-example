@@ -2,4 +2,7 @@ name: material_ui_webpack_example
 dependencies:
   js: ^0.6.1
   react:
-    path: ../react-dart
+    git:
+      url: git@github.com:greglittlefield-wf/react-dart.git
+      ref: 63ab345544be7742c74646d05818a7f872a9d196 # branch js_components
+

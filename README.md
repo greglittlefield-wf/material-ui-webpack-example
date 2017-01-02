@@ -1,26 +1,32 @@
-# [Material-UI](http://callemall.github.io/material-ui/) - Example Webpack Project
+# [Material-UI](http://callemall.github.io/material-ui/) - Unofficial example Dart project
 
-This is an example project that uses [Material-UI](http://callemall.github.io/material-ui/).
+Forked from <https://github.com/callemall/material-ui-webpack-example>, this is an example project that uses uses [react-dart](https://github.com/cleandart/react-dart) to render the JS [Material-UI](http://callemall.github.io/material-ui/) React components from Dart.
+
+See https://github.com/cleandart/react-dart/pull/112 for more info on using JS components in Dart.
+
+This project uses webpack to expose the Material-UI APIs on the window, but Browserify should work as well.
 
 ## Installation
 
-After cloning the repository, install dependencies:
+Clone the repository, install dependencies:
 ```sh
-cd <project folder>/material-ui/examples/webpack-example
+git clone git@github.com:greglittlefield-wf/material-ui-webpack-example.git
+cd material-ui-webpack-example
 npm install
+pub get
 ```
 
-Now you can run your local server:
-```sh
-npm start
+Build the JS assets:
 ```
-Server is located at http://localhost:3000
+npm run build-dev
+```
 
-Note: To allow external viewing of the demo, change the following value in `webpack-dev-server.config.js`
+Run the server
+```
+pub serve
+```
 
-```
-host: 'localhost'  //Change to '0.0.0.0' for external facing server
-```
+You should now be able to access the demo at <http://localhost:8080>.
 
 ## Description of [Webpack](http://webpack.github.io/docs/)
 
