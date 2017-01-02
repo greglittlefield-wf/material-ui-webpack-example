@@ -2,7 +2,7 @@
 
 Forked from <https://github.com/callemall/material-ui-webpack-example>, this is an example project that uses uses [react-dart](https://github.com/cleandart/react-dart) to render the JS [Material-UI](http://callemall.github.io/material-ui/) React components from Dart.
 
-See https://github.com/cleandart/react-dart/pull/112 for more info on using JS components in Dart.
+See the [`js_components` example in react-dart](https://github.com/greglittlefield-wf/react-dart/tree/js_components/example/js_components) (added in https://github.com/cleandart/react-dart/pull/112) for more info on using JS components in Dart.
 
 This project uses webpack to expose the Material-UI APIs on the window, but Browserify should work as well.
 
