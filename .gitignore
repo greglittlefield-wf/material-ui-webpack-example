@@ -1,2 +1,7 @@
 node_modules
 build
+.packages
+.pub
+packages
+wrapper.build.js
+wrapper.build.js.map
